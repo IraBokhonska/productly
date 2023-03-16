@@ -3,6 +3,7 @@ body {
     background-color:#FFFFFF;
     width: 100%;
 }
+
 header, 
 section,
 footer {
@@ -13,14 +14,15 @@ footer {
   line-height: 26px;
   color: #544837;
 }
-section .container{
+
+section .container {
   margin-bottom: 100px;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 h1 {
   font-weight: 700;
   font-size: 44px;
@@ -54,6 +56,10 @@ a {
   line-height: 28px;
   color: #2F281E;
 }
+a:hover{
+  text-decoration: underline;
+}
+
 .button {
   font-family: 'Poppins';
   padding: 13px 25px;
@@ -65,6 +71,11 @@ a {
   color: #FFFFFF;
   text-align: center;
 }
+.button:hover {
+  background-color: #775298;
+  box-shadow: 1px 2px 25px 5px #544837;
+}
+
 /* ------------------header-------------------- */
 .header {
   padding: 17px 0;
@@ -89,25 +100,19 @@ a {
   margin: auto;
 }
 
-.menu__body {
-}
 .menu__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   column-gap: 20px;
 }
-.menu__item {
 
-}
-.menu__link {
-}
 .menu__link_orange {
   color: #FF9900;
 }
 .header__button-block {
   max-width: 252px;
-  max-height: 46px;
+  min-height: 46px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -135,6 +140,9 @@ a {
   border-radius: 4px;
   color: #FFFFFF;
 }
+.header__button:hover {
+  background-color: #775298;
+}
 /* ---------------get-started--------------- */
 .get-started__container {
   display: flex;
@@ -142,10 +150,7 @@ a {
   justify-content: space-between;
   gap: 56px;
 }
-.container {
-}
-.get-started__block {
-}
+
 .get-started__content {
   max-width: 500px;
   margin: auto;
@@ -165,6 +170,7 @@ a {
 }
 
 /* ------superpowers-tools----------- */
+
 .superpowers-tools {
   background-image: url(../images/tools-superpowers/bg.png);
   background-size: 100%;
@@ -225,47 +231,26 @@ a {
 
 
 /* -------------design-professionals------------ */
-.design-professionals__container {
-  
-}
+
 .design-professionals__content {
   max-width: 525px;
   margin: auto 0;
 }
-.design-professionals__text {
-}
-.design-professionals__title {
-}
-.title {
-}
-.design-professionals__block {
-}
+
 .design-professionals__item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
 }
-.design-professionals__subtitle {
-}
-.design-professionals__image {
-}
 
 /* --------------------product-managers--------------- */
-.product-managers__container {
-}
-.product-managers__image {
-}
+
 .product-managers__content {
   max-width: 505px;
   margin: auto 0;
 }
-.product-managers__text {
-}
-.product-managers__title {
-}
-.product-managers__block {
-}
+
 .product-managers__item {
   display: flex;
   flex-direction: row;
@@ -273,32 +258,21 @@ a {
   gap: 30px;
 }
 /*----------------------marketers-----------------------  */
-.marketers__container {
-}
+
 .marketers__content {
   max-width: 486px;
   margin: auto 0;
 }
-.marketers__text {
-}
-.marketers__title {
-}
-.marketers__block {
-}
+
 .marketers__item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
 }
-.marketers__subtitle {
-}
-.marketers__image {
-}
+
 /* -----------------footer------------------ */
 
-.footer {
-}
 .line {
   width: 100%;
   height: 1px;
@@ -326,14 +300,7 @@ a {
   gap: 102px;
   margin-bottom: 70px;
 }
-.footer__column {
-}
-.footer__logo {
-}
-.logo {
-}
-.productly {
-}
+
 .footer__quick-links h4 {
   margin-bottom: 30px;
 }
@@ -359,8 +326,4 @@ a {
   height: 50px;
   border: 1px solid #BCD0E5;
   border-radius: 4px;
-}
-
-.footer__button {
-  
 }
